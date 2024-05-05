@@ -15,7 +15,7 @@ io.on('connection', (socket) => {
 })
 
 app.get('/', function(req, res){
-    res.send("hi this is my first web")
+    res.send("hii ")
 })
 
 server.listen(9000, () => console.log('docker server is running on port 9000'))
